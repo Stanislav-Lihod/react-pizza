@@ -6,7 +6,7 @@
   }
 
   /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
-  .loader {
+  .spinner {
     width: 45px;
     aspect-ratio: 0.75;
     --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
@@ -15,7 +15,7 @@
       var(--c) 50% 50%,
       var(--c) 100% 50%;
     background-size: 20% 50%;
-    animation: loading 1s infinite linear;
+    animation: spinner 1s infinite linear;
   }
 
   @keyframes spinner {
